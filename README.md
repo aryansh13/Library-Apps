@@ -1,6 +1,6 @@
 # Library Apps 📚
 
-Bookshelf Apps ini adalah aplikasi yang dapat menyimpan data buku-bukumu. Aplikasi ini menggunakan penyimpanan berbasis web storage (local storage), yang artinya data buku-bukumu tidak akan hilang jika kamu menutup tab browser atau melakukan refresh pada browser. Data akan hilang jika kamu menghapusnya secara manual 👍.
+Library Apps ini adalah aplikasi yang dapat menyimpan data buku-bukumu. Aplikasi ini menggunakan penyimpanan berbasis web storage (local storage), yang artinya data buku-bukumu tidak akan hilang jika kamu menutup tab browser atau melakukan refresh pada browser. Data akan hilang jika kamu menghapusnya secara manual 👍.
 
 ## Fitur-fitur ✨
 
