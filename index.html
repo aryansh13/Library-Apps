@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Library Apps</title>
+      <!-- font awesome icon -->
+      <script src="https://kit.fontawesome.com/d66a7a980c.js" crossorigin="anonymous"></script>
+      <!-- css -->
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <header class="header">
+         <i class="fa-solid fa-book-open fa-3x"></i>
+         <h1 class="header-title">Library Apps</h1>
+      </header>
+      <main>
+         <section class="add-section">
+            <h2>Add New Book</h2>
+            <form id="addBookForm">
+               <div class="form-group">
+                  <label for="addBookTitle">Title</label>
+                  <input id="addBookTitle" type="text" required />
+               </div>
+               <div class="form-group">
+                  <label for="addBookAuthor">Author</label>
+                  <input id="addBookAuthor" type="text" required />
+               </div>
+               <div class="form-group">
+                  <label for="addBookYear">Publication Year</label>
+                  <input id="addBookYear" type="number" required />
+               </div>
+               <div class="form-inline">
+                  <label for="addBookFinished">Finished Reading</label>
+                  <input id="addBookFinished" type="checkbox" />
+               </div>
+               <button id="submitBook" type="submit" class="btn-green">Add Book to Shelf</button>
+            </form>
+         </section>
+
+         <section class="search-section">
+            <h2>Search Book on Shelf</h2>
+            <form id="searchBookForm">
+               <label for="searchBookTitle">Title</label>
+               <input id="searchBookTitle" type="text" placeholder="enter book title" />
+               <button id="searchBookButton" type="submit" class="btn-green"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </form>
+         </section>
+
+         <section class="shelf-container">
+            <button id="clearShelf"></button>
+            <div class="shelf unread-books">
+               <h2>Unread Books</h2>
+               <div id="unreadBookList" class="book-list">
+                  <!-- element is the result of the displayBook function -->
+               </div>
+            </div>
+
+            <div class="shelf">
+               <h2>Finished Books</h2>
+               <div id="readBookList" class="book-list">
+                  <!-- element is the result of the displayBook function -->
+               </div>
+            </div>
+         </section>
+         <section class="edit-section">
+            <form id="editBookForm">
+               <h2>Edit Book</h2>
+               <div class="form-group">
+                  <label for="editBookTitle">Title</label>
+                  <input id="editBookTitle" type="text" required />
+               </div>
+               <div class="form-group">
+                  <label for="editBookAuthor">Author</label>
+                  <input id="editBookAuthor" type="text" required />
+               </div>
+               <div class="form-group">
+                  <label for="editBookYear">Publication Year</label>
+                  <input id="editBookYear" type="number" required />
+               </div>
+               <div class="button-group">
+                  <button id="cancelEdit" class="btn-red">Cancel</button>
+                  <button id="saveEdit" type="submit" class="btn-green">Save</button>
+               </div>
+            </form>
+         </section>
+      </main>
+      <footer>
+         <p>created with love by Aryanto Andri Sobirin</p>
+      </footer>
+
+      <!-- sweetalert cdn -->
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <!-- js -->
+      <script src="main.js"></script>
+   </body>
+</html>
