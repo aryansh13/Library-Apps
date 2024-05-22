@@ -10,14 +10,6 @@ Bookshelf Apps ini adalah aplikasi yang dapat menyimpan data buku-bukumu. Aplika
 - **Menghapus data buku**: Buku-buku yang sudah tidak diinginkan bisa dihapus dari daftar.
 - **Memfilter buku yang ditampilkan berdasarkan judul buku**: Kamu bisa mencari buku dengan cepat menggunakan fitur filter berdasarkan judul buku.
 
-## Fitur yang Disediakan 🚀
-
-1. **Menambahkan Buku**: Klik tombol "Tambah Buku" dan isi informasi yang diminta pada form yang muncul.
-2. **Memindahkan Buku**: Drag and drop buku dari satu rak ke rak lainnya untuk memindahkannya.
-3. **Mengedit Buku**: Klik ikon edit (✏️) pada buku yang ingin diedit, lalu perbarui informasi yang diperlukan.
-4. **Menghapus Buku**: Klik ikon hapus (🗑️) pada buku yang ingin dihapus.
-5. **Memfilter Buku**: Gunakan kotak pencarian untuk memasukkan judul buku yang ingin kamu cari.
-
 ## Teknologi yang Digunakan 🛠️
 
 - **HTML**: Untuk struktur halaman web.
